@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+span {
+    display: inline-block;
+    color: white;
+    background-color: rgb(66, 150, 137); 
+    width: calc( 100% / 10 - 20px );
+    aspect-ratio: 1/1;
+    margin: 10px;
+    line-height: 100px;
+    
+}

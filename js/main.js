@@ -7,10 +7,11 @@ for ( let i = 1; i <= 100; i++) {
     } else if (i % 3 == 0) {
         number = "Fizz";
     } else if (i % 5 == 0) {
-        number = "Buzz";
+        number = "Buzz"; 
+        
     }
 
     console.log(number);
-
+    document.getElementById("result").innerHTML +="<span>" + number + "</span>";
     
 }
